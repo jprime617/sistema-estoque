@@ -1,0 +1,21 @@
+.titulo{
+    text-align: center;
+}
+.mostruario{
+    text-align: center;
+}
+.botao{
+    height: 2rem;
+    width: 2rem;
+    background-color: green;
+}
+.botaoRed{
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+}
+.botaoBlue{
+    height: 2rem;
+    width: 4rem;
+    background-color: blue;
+}
