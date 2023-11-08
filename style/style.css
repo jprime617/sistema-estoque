@@ -19,3 +19,28 @@
     width: 4rem;
     background-color: blue;
 }
+.botaoCor{
+    height: 2rem;
+    width: 2rem;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+}
+.botaoMudarCor{
+    height: 2rem;
+    width: 6rem;
+    top: 16%;
+    left: 2.6%;
+    position: absolute;
+}
+.caixaTexto{
+    text-align: center;
+    
+}
+.caixaNumero{
+    
+    text-align: center;
+}
+.gerenciador{
+    text-align: center;
+}

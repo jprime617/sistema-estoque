@@ -3,8 +3,8 @@ var EstoqueQuant = []
 var ProdAtual = 0
 
 function Add(){
-    var produto = prompt("Insira o nome do produto.")
-    var n = prompt("Insira a quantidade")
+    var produto = document.getElementById("idProds").value
+    var n = document.getElementById("IdNumbs").value
     EstoqueQuant.push(n)
     Estoque.push(produto)
     
@@ -27,4 +27,10 @@ function Remove(){
 function Mudar(){
     
 }
+function MudarCor(){
+    let changeColor = document.getElementById('CoresPag').value
+    document.body.style.backgroundColor = changeColor
+}
+
+
 
