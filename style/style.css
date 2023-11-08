@@ -38,9 +38,14 @@
     
 }
 .caixaNumero{
-    
+    width: 3rem;
     text-align: center;
 }
 .gerenciador{
     text-align: center;
+}
+.ButtonRemove{
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
 }
