@@ -10,8 +10,9 @@ function Add(){
     
     var divNova = document.createElement("div");
     var divButton = document.createElement("button")
+
     divNova.id = (ProdAtual + 1)
-    divButton.id = ("Button" + ProdAtual)
+    divButton.id = ("Buttono" + ProdAtual)
     var conteudoNovo = document.createTextNode(divNova.id + "-" + Estoque[ProdAtual] + "; Qnt: " + EstoqueQuant[ProdAtual]);
     divNova.appendChild(conteudoNovo)
     var divAtual = document.getElementById("mostruario");
@@ -19,7 +20,10 @@ function Add(){
     document.body.insertBefore(divButton, divAtual);
     divButton.classList.add("ButtonRemove")
     divNova.classList.add("mostruario")
-    var elemento = document.getElementById("button" + ProdAtual)
+    divButton.innerHTML = "Apagar"
+    //var meuButton = document.getElementsByClassName("ButtonRemove")
+    //divButton.addEventListener("onclick", Remove());
+    //var elemento = document.getElementById("button" + ProdAtual)
     //var rect = elemento.getBoundingClientRect()
     //var x = rect.left
     //var y = rect.top
@@ -28,6 +32,7 @@ function Add(){
     //elemento.style.top = 
     ProdAtual ++
 }
+
 
 function Remove(){
     var num = prompt("Qual o número do item que você deseja deletar?")
