@@ -9,18 +9,18 @@ function Add(){
     Estoque.push(produto)
     
     var divNova = document.createElement("div");
-    var divButton = document.createElement("button")
+    //var divButton = document.createElement("button")
 
     divNova.id = (ProdAtual + 1)
-    divButton.id = ("Buttono" + ProdAtual)
+    //divButton.id = ("Buttono" + ProdAtual)
     var conteudoNovo = document.createTextNode(divNova.id + "-" + Estoque[ProdAtual] + "; Qnt: " + EstoqueQuant[ProdAtual]);
     divNova.appendChild(conteudoNovo)
     var divAtual = document.getElementById("mostruario");
     document.body.insertBefore(divNova, divAtual);
-    document.body.insertBefore(divButton, divAtual);
-    divButton.classList.add("ButtonRemove")
+    //document.body.insertBefore(divButton, divAtual);
+    //divButton.classList.add("ButtonRemove")
     divNova.classList.add("mostruario")
-    divButton.innerHTML = "Apagar"
+    //divButton.innerHTML = "Apagar"
     //var meuButton = document.getElementsByClassName("ButtonRemove")
     //divButton.addEventListener("onclick", Remove());
     //var elemento = document.getElementById("button" + ProdAtual)
