@@ -45,7 +45,9 @@
     text-align: center;
 }
 .ButtonRemove{
-    width: 4rem;
-    height: 2rem;
+    text-align: center;
+}
+.caixa{
     position: absolute;
+    width: 3rem;
 }
