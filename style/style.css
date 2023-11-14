@@ -5,8 +5,8 @@
     text-align: center;
 }
 .botao{
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     background-color: green;
 }
 .botaoRed{
@@ -50,4 +50,19 @@
 .caixa{
     position: absolute;
     width: 3rem;
+}
+.comfirmar{
+    left: 20%;
+    background-color: green;
+}
+.buttonMudar{
+    background-color: rgba(80, 80, 252, 0.616);
+}
+.buttonRemover{
+    background-color: rgba(253, 48, 48, 0.596);
+    margin-left: 300PX;
+    margin-top: -7PX;
+}
+.TextoProduto{
+    margin-top: -15px;
 }
